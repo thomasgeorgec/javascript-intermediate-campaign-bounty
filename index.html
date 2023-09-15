@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grading System</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Student Grading System</h1>
+    <div id="form-container">
+        <input type="text" id="name" placeholder="Student Name">
+        <input type="text" id="id" placeholder="Student ID">
+        <input type="number" id="score" placeholder="Score">
+        <button id="add">Add Record</button>
+        <button id="update">Update Record</button>
+        <button id="view">View Records</button>
+    </div>
+    <div id="table-container">
+        <table id="records-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="records">
+                <!-- Student records will be added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
